@@ -1,65 +1,104 @@
 📚 Exercícios SQL – MySQL Workbench
 
 Repositório dedicado às atividades práticas do módulo de Banco de Dados Relacional com MySQL da Generation Brasil.
-
-Este projeto contém scripts SQL completos utilizados durante o estudo e execução no MySQL Workbench, seguindo as orientações do cookbook da sessão.
+Aqui estão organizados todos os exercícios de SQL, desde os primeiros scripts até o módulo de JOINs, estruturados por pastas.
 
 🗂 Estrutura do Repositório
 /
 ├── exe01.sql
 ├── exe02.sql
 ├── exe03.sql
+├── modulo-sql-join/
+│   ├── exe01.sql
+│   ├── exe02.sql
+│   ├── exe03.sql
+│   ├── exe04.sql
+│   ├── exe05.sql
+│   └── exe06.sql
 └── README.md
 
 
-Cada arquivo representa um exercício solicitado pelo módulo, contendo criação de bancos, tabelas, inserções, consultas, atualizações e alterações de estrutura.
+Cada arquivo representa um exercício da trilha SQL da Generation, incluindo criação de bancos, tabelas, inserções, consultas, atualizações e manipulação de relacionamentos entre tabelas.
 
-🧩 Conteúdo dos Exercícios
+🧩 Módulo 01 – Exercícios Iniciais (exe01.sql, exe02.sql, exe03.sql)
 ✔ exe01.sql
 
-Banco db_rh
-
-Criação do banco e tabela tb_colaboradores
-
-Inserção de 5 colaboradores
-
-Consultas com filtros
-
-Atualizações e alterações de dados
+Banco: db_rh
+Conteúdo:
+• Criação do banco e tabela tb_colaboradores
+• Inserção de dados
+• Consultas com filtros
+• Atualizações e alterações de registros
 
 ✔ exe02.sql
 
-Banco db_ecommerce
-
-Criação do banco e tabela tb_produtos
-
-Inserção de produtos
-
-Filtros com WHERE, operadores lógicos e relacionais
-
-Atualização de registros
+Banco: db_ecommerce
+Conteúdo:
+• Criação de banco e tabela tb_produtos
+• Inserção de produtos
+• Consultas com operadores relacionais e lógicos
+• Atualizações de produtos
 
 ✔ exe03.sql
 
-Banco db_escola
+Banco: db_escola
+Conteúdo:
+• Criação do banco e tabela tb_estudantes
+• Inserção de alunos
+• Consultas por notas, filtros e ordenação
+• Ajustes estruturais quando necessário
 
-Criação do banco e tabela tb_estudantes
+🔗 Módulo 02 – SQL JOIN (modulo-sql-join)
 
-Inserção de estudantes
+Arquivo dentro da pasta:
 
-Consultas por nota, filtros e atualizações
+/modulo-sql-join/
 
-Alterações de estrutura quando necessário
+
+Conteúdo:
+
+✔ exe01.sql
+
+• INNER JOIN entre duas tabelas relacionadas
+• Consulta de dados vinculados (ex.: clientes x pedidos)
+
+✔ exe02.sql
+
+• LEFT JOIN
+• Listagem de dados independentes + relacionados
+• Produtos sem categoria vinculada
+
+✔ exe03.sql
+
+• RIGHT JOIN
+• Identificação de registros órfãos
+• Verificação de integridade entre tabelas
+
+✔ exe04.sql
+
+• Múltiplos JOINs encadeados
+• Combinação de filtros com WHERE
+
+✔ exe05.sql
+
+• JOIN + funções de agregação
+• COUNT, AVG, SUM
+• Agrupamento com GROUP BY
+
+✔ exe06.sql
+
+• Consultas complexas
+• JOIN + ordenação + filtragem avançada
+• Desafios finais do módulo
 
 🛠 Tecnologias Utilizadas
 
-MySQL Server 8.0
+• MySQL Server 8.0
+• MySQL Workbench 8.0
+• SQL (DDL, DML e JOINS)
+• Git / GitHub para versionamento dos exercícios
 
-MySQL Workbench 8.0
-
-SQL (DDL e DML)
-
-🚀 Como executar os scripts
+🚀 Como Executar os Scripts
 
 Abra o MySQL Workbench
 
@@ -69,18 +108,28 @@ Vá em File → Open SQL Script
 
 Abra o arquivo desejado (exe01.sql, exe02.sql, etc.)
 
-Clique no botão de executar (raio amarelo)
+Clique no raio amarelo para executar
 
-Verifique os resultados no painel Action Output
+Visualize o resultado no painel Action Output
+
+Se houver múltiplos comandos, execute em blocos usando Ctrl + Enter
 
 ✨ Sobre o Projeto
 
-Este repositório faz parte da trilha de estudos do curso JavaScript Full-Stack da Generation, reforçando o aprendizado prático em SQL, manipulação de tabelas e consultas relacionais.
+Este repositório reúne toda a prática de Banco de Dados Relacional feita na formação JavaScript Full-Stack da Generation Brasil.
+Os exercícios reforçam:
+
+• Criação de tabelas
+• Relacionamentos
+• Consultas SQL completas
+• Filtros, ordenações e agrupamentos
+• JOINs aplicados a cenários reais
 
 💼 Autora
 
 Thatiana Mattos
 Dev Full-Stack • Estudante de Ciência da Computação
+
 🔗 GitHub: https://github.com/ThatianaMattos
 
 🔗 LinkedIn: https://www.linkedin.com/in/thatiana-mattos
